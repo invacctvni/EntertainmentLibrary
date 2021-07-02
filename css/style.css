@@ -1,0 +1,283 @@
+/*Use CSS or a library (Bootstrap) to style your CRUD system to give it a professional look.*/
+/*Global Settings*/
+html{scroll-behavior: smooth;}
+body{margin: 0px;}
+h1,h2,h3,h4,h5,h6{font-family: 'Montserrat',sans-serif;}
+/*Set font size, family,default color*/
+p,a,li{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Roboto',sans-serif;
+    color: lightslategray;
+}
+
+.sign {
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    padding: 60px 0px 30px 0px;
+    background-color:white;
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+
+}
+
+/** header **/
+header{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    background-color: black;
+}
+/* footer */
+/* Style all font awesome icons */
+.fa {
+    padding: 30px;
+    font-size: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+footer
+{
+    display: flex;
+    height: 110px;
+    align-items: center;
+    background-color: black;
+}
+/*header font color*/
+header > nav > ul > li a
+{
+    color:white;
+}
+
+header > div{
+    width: auto;
+    height: 100PX;
+    flex-grow: 1;
+
+}
+
+footer > div
+{
+    width: auto;
+    height: 100PX;
+    flex-grow: 1;
+}
+
+footer > div:nth-child(2)
+{
+    color:white;
+    flex-grow: 1;
+    height:20px;
+    vertical-align: middle;
+}
+
+footer > div:nth-child(2) > a
+{
+    font-size: 13px;
+}
+
+header> div > a > img{
+    width: auto;
+    height: 100%;
+}
+
+footer> div > a > img{
+    width: auto;
+    height: 100%;
+}
+header> nav > ul{
+    display: flex;
+    list-style: none;
+}
+
+footer> nav > ul{
+    display: flex;
+    list-style: none;
+}
+
+header> nav > ul > li{
+    padding: 0px 15px;
+    list-style: none;
+}
+
+footer> nav > ul > li{
+    padding: 0px 15px;
+    list-style: none;
+}
+
+header> nav > ul > li > a{
+    color: white;
+    font-size:13px;
+}
+
+footer> nav > ul > li > a{
+    color: white;
+    font-size:13px;
+}
+/** main content **/
+.masthead{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/masthead.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.masthead > div{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20vh;
+}
+.masthead > div > h1{
+    font-size: 46px;
+    color: aquamarine;
+    width: 100%;
+    text-align: center;
+}
+
+.masthead > div > h2
+{
+    font-size: 29px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+.signup{
+    padding: 5%;
+    text-align: center;
+    background-image: url(../img/signup33.jpg);
+    background-attachment: fixed;
+    background-size:cover;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.user-table{
+    padding: 5%;
+    background-image: url(../img/signup33.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.user-table > table{
+    width: 80%;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: black;
+
+}
+.user-table > h2
+{
+    text-align: center;
+    color:white;
+}
+table tr:first-child{
+    background-color: #0e0e0e;
+    color: white;
+}
+
+table td
+{
+    color: navajowhite;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.signup > h3
+{
+    color: aquamarine;
+}
+
+.form-container{
+    min-height: 200px;
+    padding: 0% 5% 5% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.signup{
+    padding: 5%;
+    text-align: center;
+    background-image: url(../img/signup33.jpg);
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+.signup > h2
+{
+    color:white;
+}
+
+.form-container h2{
+    font-size: 38px;
+    color: #000;
+    font-family: sans-serif;
+    text-align: center;
+}
+.form-container form input{
+    padding: 15px;
+    font-size: 20px;
+    border: solid 3px firebrick;
+    border-radius: 3px;
+    font-family: sans-serif;
+
+}
+.form-container form input[type=submit]{
+    background-color: red;
+    color: #fff;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 15px 45px;
+    transition: all .1s linear;
+}
+
+.agesign
+{
+    text-align: center;
+    padding-top:4px;
+    padding-bottom: 10vh;
+    background-image: url(../img/signup33.jpg);
+    background-attachment: fixed;
+    background-size:cover;
+
+}
+/*set form container font color and family*/
+.form-container
+{
+    color:white;
+    font-family: 'Roboto', sans-serif;
+}
+/*set the age tester's heading font*/
+.agesign > h2
+{
+
+    color:darkred;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+.ageCheck
+{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.email-container
+{
+    background-image: url(../img/signup33.jpg);
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+
+
+
+
+
